@@ -1,0 +1,13 @@
+RewriteEngine on
+
+RewriteRule ^global/ - [L,NC]
+RewriteRule ^files/ - [L,NC]
+RewriteRule ^view/ - [L,NC]
+RewriteRule ^assets/ - [L,NC]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)/$ app.php?rota=$1 [L,QSA]
+RewriteRule ^(.*)$ app.php?rota=$1 [L,QSA]
+
