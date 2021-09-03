@@ -24,10 +24,10 @@ As tecnologias utilizadas para este projeto são:
 
 Considerando que você possua um servidor configurado com PHP em versão igual ou superior a 7.4, o SGBD Mysql instalado e um servidor como Apache instalado, basta seguir os seguintes passos:
 
+- Clonar o repositório atual via terminal/cmd dentro de alguma pasta em seu servidor;
 - Criar uma base de dados com o nome "os_system";
 - Importar o arquivo os_system.sql encontrado na raiz do projeto nesta base criada;
 - Inserir informações de um usuário de banco de dados válidas no arquivo config/main.conf
-- Clonar o repositório atual via terminal/cmd dentro de alguma pasta em seu servidor;
 
 
 Login já cadastrado para testes:
